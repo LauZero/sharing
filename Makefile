@@ -4,3 +4,6 @@ default:
 
 venv: ## 初始化 Python 运行环境
 	@virtualenv .venv
+
+gpush:
+	@sh ./.scripts/gpush.sh
